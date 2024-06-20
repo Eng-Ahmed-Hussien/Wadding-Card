@@ -1,0 +1,1 @@
+var goTo_page=document.querySelector("#goto-page");window.addEventListener("load",(function(){document.querySelector("#page-loader").style.display="none",document.querySelector(".wrapper-content").style.opacity="1",goTo_page.style.display="block"})),goTo_page.addEventListener("click",(function(){window.location.href="mainPage.html"}));
